@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ES1</name>
+    <events>
+        <event-block sid="906998849611496">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="499083724706663" type="J1" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="499625628342076">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="173829920065196" type="J1">
+                            <param id="0" name="Object">TJ1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="967174539839454" type="J1">
+                            <param id="0" name="X">TJ1.X</param>
+                            <param id="1" name="Y">TJ1.Y</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="899739517305987" type="J1">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="838842122068076">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="366117225299249" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="243161612950663" type="J1">
+                            <param id="0" name="X">J1.J1_X</param>
+                            <param id="1" name="Y">J1.J1_Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="793257009860351">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="944636355911519" type="J2" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="521539768950539">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="781405026546675" type="J2">
+                            <param id="0" name="Object">TJ2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="522134225261894" type="J2">
+                            <param id="0" name="X">TJ2.X</param>
+                            <param id="1" name="Y">TJ2.Y</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="634368299377613" type="J2">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="417103085822003">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="852777193449039" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="670221234163584" type="J2">
+                            <param id="0" name="X">J2.J2_X</param>
+                            <param id="1" name="Y">J2.J2_Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="675207574903896">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="222319800345139" type="J3" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="650327453511145">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="775218422214390" type="J3">
+                            <param id="0" name="Object">TJ3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="208385558361220" type="J3">
+                            <param id="0" name="X">TJ3.X</param>
+                            <param id="1" name="Y">TJ3.Y</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="149550143005658" type="J3">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="438259253788756">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="201216158898913" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="842019026230435" type="J3">
+                            <param id="0" name="X">J3.J3_X</param>
+                            <param id="1" name="Y">J3.J3_Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="594075144572008">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="524388196084652" type="J4" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="552175359881217">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="662171463806569" type="J4">
+                            <param id="0" name="Object">TJ4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="757040140775787" type="J4">
+                            <param id="0" name="X">TJ4.X</param>
+                            <param id="1" name="Y">TJ4.Y</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="125270833443099" type="J4">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="849921448799030">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="196269626805852" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="117720827605168" type="J4">
+                            <param id="0" name="X">J4.J4_X</param>
+                            <param id="1" name="Y">J4.J4_Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="108833366128805">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="782094900581463" type="J5" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="538900445253275">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="944995441254296" type="J5">
+                            <param id="0" name="Object">TJ5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="191770373823496" type="J5">
+                            <param id="0" name="X">TJ5.X</param>
+                            <param id="1" name="Y">TJ5.Y</param>
+                        </action>
+                        <action id="0" name="Spawn another object" sid="502963019275792" type="J5">
+                            <param id="0" name="Object">Particles</param>
+                            <param id="1" name="Layer">0</param>
+                            <param id="2" name="Image point">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="621770556908931">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="430225554088384" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="886349937885162" type="J5">
+                            <param id="0" name="X">J5.J5_X</param>
+                            <param id="1" name="Y">J5.J5_Y</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

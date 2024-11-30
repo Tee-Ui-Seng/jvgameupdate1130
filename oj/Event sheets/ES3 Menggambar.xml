@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ES3 Menggambar</name>
+    <events>
+        <variable constant="0" name="Ukuran2" sid="234370762916544" static="0" type="number">50</variable>
+        <variable constant="0" name="Warna2" sid="217902088473746" static="0" type="text">Merah</variable>
+        <event-block sid="644924345168318">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="515138188333970" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="181255210968495" type="redDraw">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="838580368518737" type="PenMenulis">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="339385131990636">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="874672751280643" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="791664053642718">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="534069594384439" type="Touch">
+                            <param id="0" name="Object">HURUFTEST</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-3" name="Set position" sid="318060165095686" type="cursorObject">
+                            <param id="0" name="X">Touch.X</param>
+                            <param id="1" name="Y">Touch.Y</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="987865797632215">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="727423979447783" type="System">
+                                    <param id="0" name="First value">Warna</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">&quot;Biru&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="962379634257224">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="544131541530332" type="System">
+                                            <param id="0" name="First value">Ukuran</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">50</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="209288403624663" type="cursorObject">
+                                            <param id="0" name="Object">brushBlue</param>
+                                            <param id="1" name="Layer">1</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="272562646400641">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="386322113229098" type="System">
+                                    <param id="0" name="First value">Warna</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">&quot;Hijau&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="489915457734833">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="834335710751157" type="System">
+                                            <param id="0" name="First value">Ukuran</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">50</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="877953609878382" type="cursorObject">
+                                            <param id="0" name="Object">brushGreen</param>
+                                            <param id="1" name="Layer">1</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="571660535587817">
+                            <conditions>
+                                <condition id="-8" name="Compare two values" sid="492018842558597" type="System">
+                                    <param id="0" name="First value">Warna</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Second value">&quot;Merah&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="317691568416645">
+                                    <conditions>
+                                        <condition id="-8" name="Compare two values" sid="902392539795494" type="System">
+                                            <param id="0" name="First value">Ukuran</param>
+                                            <param id="1" name="Comparison">0</param>
+                                            <param id="2" name="Second value">50</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="0" name="Spawn another object" sid="984536866841991" type="cursorObject">
+                                            <param id="0" name="Object">brushRed</param>
+                                            <param id="1" name="Layer">1</param>
+                                            <param id="2" name="Image point">0</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="486122051662707">
+            <conditions>
+                <condition id="17" name="On tap object" sid="255133088339286" type="Touch">
+                    <param id="0" name="Object">redDraw</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="898248006152875" type="System">
+                    <param id="0" name="Variable">Warna</param>
+                    <param id="1" name="Value">&quot;Merah&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="178233728445214" type="redDraw">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="113670484579655" type="blueDraw">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="892239953739073" type="greenDraw">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="392761683687224">
+            <conditions>
+                <condition id="17" name="On tap object" sid="474925406707522" type="Touch">
+                    <param id="0" name="Object">blueDraw</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="759766927825745" type="System">
+                    <param id="0" name="Variable">Warna</param>
+                    <param id="1" name="Value">&quot;Biru&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="153658992485100" type="redDraw">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="212493388032371" type="blueDraw">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="591014850718636" type="greenDraw">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="181500188954320">
+            <conditions>
+                <condition id="17" name="On tap object" sid="733254356870134" type="Touch">
+                    <param id="0" name="Object">greenDraw</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="744954581225748" type="System">
+                    <param id="0" name="Variable">Warna</param>
+                    <param id="1" name="Value">&quot;Hijau&quot;</param>
+                </action>
+                <action id="5" name="Set frame" sid="637785509723966" type="redDraw">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="963090241341929" type="blueDraw">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+                <action id="5" name="Set frame" sid="286229234429726" type="greenDraw">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="432065381195709">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="931127755634167" type="Touch">
+                    <param id="0" name="Object">checkPoin1</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>

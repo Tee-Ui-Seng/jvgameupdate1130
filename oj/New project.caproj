@@ -1,0 +1,988 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="AJAX" version="1">AJAX</plugin>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Particles" version="1">Particles</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+        <plugin author="Scirra" id="filechooser" version="1">File chooser</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Sin" version="1">Sine</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1420</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="Sprite2" sid="641536376540683">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="420961588107061" speed="5">
+                    <frame duration="1" hotspotX="0.47619" hotspotY="0.478723" original-source="C:\Users\User\OneDrive\03 Collage sem 3\praktikum mulmed\huruf dll\Javanese_script_-_Nya.png">
+                        <collision-poly>
+                            <point x="0.333333" y="0.255319" />
+                            <point x="0.47619" y="0.0319149" />
+                            <point x="0.761905" y="0.0319149" />
+                            <point x="0.986395" y="0.478723" />
+                            <point x="0.795918" y="0.978723" />
+                            <point x="0.47619" y="0.0851063" />
+                            <point x="0.156463" y="0.978723" />
+                            <point x="0.00680272" y="0.478723" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="759166883295591">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="533590923188521" speed="5">
+                    <frame duration="1" hotspotX="0.481752" hotspotY="0.475" original-source="C:\Users\User\OneDrive\03 Collage sem 3\praktikum mulmed\huruf dll\Javanese_script_-_Dha.png">
+                        <collision-poly>
+                            <point x="0.10219" y="0.0416667" />
+                            <point x="0.481752" y="0.7" />
+                            <point x="0.875912" y="0.025" />
+                            <point x="0.985401" y="0.475" />
+                            <point x="0.919708" y="0.975" />
+                            <point x="0.481752" y="0.95" />
+                            <point x="0.20438" y="0.791667" />
+                            <point x="0.0145985" y="0.475" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="738500891708436">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="107227352715459" speed="5">
+                    <frame duration="1" hotspotX="0.45614" hotspotY="0.478723" original-source="C:\Users\User\OneDrive\03 Collage sem 3\praktikum mulmed\huruf dll\Javanese_script_-_Ba.png">
+                        <collision-poly>
+                            <point x="0.105263" y="0.0531915" />
+                            <point x="0.815789" y="0.0425532" />
+                            <point x="0.982456" y="0.478723" />
+                            <point x="0.868421" y="0.978723" />
+                            <point x="0.166667" y="0.829787" />
+                            <point x="0.0175439" y="0.478723" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="955915710769560">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="310457492391911" speed="5">
+                    <frame duration="1" hotspotX="0.514085" hotspotY="0.470588" original-source="C:\Users\User\OneDrive\03 Collage sem 3\praktikum mulmed\huruf dll\Javanese_script_-_La.png">
+                        <collision-poly>
+                            <point x="0.140845" y="0.0252101" />
+                            <point x="0.514085" y="0.92437" />
+                            <point x="0.880282" y="0.0336134" />
+                            <point x="0.985915" y="0.470588" />
+                            <point x="0.943662" y="0.983193" />
+                            <point x="0.514085" y="0.983193" />
+                            <point x="0.169014" y="0.882353" />
+                            <point x="0.00704231" y="0.470588" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="666044540281582">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="194752421712787" speed="5">
+                    <frame duration="1" hotspotX="0.475177" hotspotY="0.402878" original-source="C:\Users\User\OneDrive\03 Collage sem 3\praktikum mulmed\huruf dll\Javanese_script_-_Tha.png">
+                        <collision-poly>
+                            <point x="0.106383" y="0.028777" />
+                            <point x="0.475177" y="0.568345" />
+                            <point x="0.858156" y="0.0143885" />
+                            <point x="0.985816" y="0.402878" />
+                            <point x="0.900709" y="0.834532" />
+                            <point x="0.475177" y="0.985611" />
+                            <point x="0.205674" y="0.676259" />
+                            <point x="0.0141844" y="0.402878" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite7" sid="271109216857082">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="987017419650661" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SKORTEKS" sid="978562364747822">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TJ1" sid="782268093989472">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="280810037415574">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="831613772245280" speed="5">
+                    <frame duration="1" hotspotX="0.490566" hotspotY="0.473118" original-source="C:\Users\User\OneDrive\03 Collage sem 3\praktikum mulmed\huruf dll\Javanese_script_-_Da.png">
+                        <collision-poly>
+                            <point x="0.122642" y="0.0537634" />
+                            <point x="0.490566" y="0.731183" />
+                            <point x="0.877358" y="0.0322581" />
+                            <point x="0.981132" y="0.473118" />
+                            <point x="0.933962" y="0.978495" />
+                            <point x="0.490566" y="0.795699" />
+                            <point x="0.226415" y="0.774194" />
+                            <point x="0.0188679" y="0.473118" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TJ2" sid="848514910847023">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="714578183151096">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="773923713764366" speed="5">
+                    <frame duration="1" hotspotX="0.473684" hotspotY="0.473118" original-source="C:\Users\User\OneDrive\03 Collage sem 3\praktikum mulmed\huruf dll\Javanese_script_-_Ja.png">
+                        <collision-poly>
+                            <point x="0.131579" y="0.0537634" />
+                            <point x="0.473684" y="0.935484" />
+                            <point x="0.842105" y="0.0215054" />
+                            <point x="0.684211" y="0.473118" />
+                            <point x="0.885965" y="0.978495" />
+                            <point x="0.473684" y="0.978495" />
+                            <point x="0.219298" y="0.784946" />
+                            <point x="0.0175439" y="0.473118" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TJ4" sid="814484232033222">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="836516771326334">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="576498991585744" speed="5">
+                    <frame duration="1" hotspotX="0.471429" hotspotY="0.470588" original-source="C:\Users\User\OneDrive\03 Collage sem 3\praktikum mulmed\huruf dll\Javanese_script_-_Ca.png">
+                        <collision-poly>
+                            <point x="0.114286" y="0.0504202" />
+                            <point x="0.471429" y="0.680672" />
+                            <point x="0.857143" y="0.0168067" />
+                            <point x="0.985714" y="0.470588" />
+                            <point x="0.907143" y="0.983193" />
+                            <point x="0.471429" y="0.865546" />
+                            <point x="0.128571" y="0.87395" />
+                            <point x="0.0142857" y="0.470588" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TJ5" sid="581526668062118">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="700394589063720">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="657905567076737" speed="5">
+                    <frame duration="1" hotspotX="0.45614" hotspotY="0.478723" original-source="C:\Users\User\OneDrive\03 Collage sem 3\praktikum mulmed\huruf dll\Javanese_script_-_Ba.png">
+                        <collision-poly>
+                            <point x="0.105263" y="0.0531915" />
+                            <point x="0.815789" y="0.0425532" />
+                            <point x="0.982456" y="0.478723" />
+                            <point x="0.868421" y="0.978723" />
+                            <point x="0.166667" y="0.829787" />
+                            <point x="0.0175439" y="0.478723" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TJ3" sid="644128625225497">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Sine" sid="403913924211641">
+                    <behavior id="Sin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="487440841932701" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.474576" original-source="C:\Users\User\OneDrive\03 Collage sem 3\praktikum mulmed\huruf dll\Javanese_script_-_Ha.png">
+                        <collision-poly>
+                            <point x="0.16" y="0.0423729" />
+                            <point x="0.5" y="0.127119" />
+                            <point x="0.86" y="0.0169492" />
+                            <point x="0.986667" y="0.474576" />
+                            <point x="0.9" y="0.983051" />
+                            <point x="0.5" y="0.864407" />
+                            <point x="0.213333" y="0.838983" />
+                            <point x="0.0133333" y="0.474576" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="489932429323519">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="569858624165389" speed="5">
+                    <frame duration="1" hotspotX="0.470588" hotspotY="0.495549" original-source="C:\Users\User\Downloads\a__2_-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0" y="0.0496174" />
+                            <point x="0.470211" y="0" />
+                            <point x="1" y="8.80946e-005" />
+                            <point x="1" y="0.987374" />
+                            <point x="0.470211" y="1" />
+                            <point x="0" y="0.937844" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Huruf" sid="681994220749751">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="TiledBackground" sid="371863718903289">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Sprite8" sid="616169801243859">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="440712782332850" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Downloads\a\4.png">
+                        <collision-poly>
+                            <point x="0.999076" y="0.000520289" />
+                            <point x="0.999076" y="0.99948" />
+                            <point x="0.000924214" y="0.99948" />
+                            <point x="0.000924214" y="0.000520289" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="J1" sid="693132393120191">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="J1_X" sid="812362739109912" type="number" />
+                <instance-variable name="J1_Y" sid="789219393703690" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="443878811166342">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="295260400107708" speed="5">
+                    <frame duration="1" hotspotX="0.490385" hotspotY="0.503226" original-source="C:\Users\User\Downloads\2-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.134615" y="0.00645161" />
+                            <point x="0.846154" y="0.00645161" />
+                            <point x="0.996795" y="0.496774" />
+                            <point x="0.846154" y="0.993548" />
+                            <point x="0.134615" y="0.993548" />
+                            <point x="0.00320513" y="0.496774" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite15" sid="559135544922554">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="880335174060339" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.60339" original-source="C:\Users\User\Downloads\Untitled_design-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.153386" y="0.0135593" />
+                            <point x="0.846614" y="0.0135593" />
+                            <point x="0.994024" y="0.60339" />
+                            <point x="0.729084" y="0.99322" />
+                            <point x="0.270916" y="0.99322" />
+                            <point x="0.0059761" y="0.60339" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="J3" sid="610442362305679">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="J3_X" sid="196078742160094" type="number" />
+                <instance-variable name="J3_Y" sid="198933933043261" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="873602055469611">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="697963223325022" speed="5">
+                    <frame duration="1" hotspotX="0.490385" hotspotY="0.503226" original-source="C:\Users\User\Downloads\6-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.134615" y="0.00645161" />
+                            <point x="0.846154" y="0.00645161" />
+                            <point x="0.996795" y="0.496774" />
+                            <point x="0.846154" y="0.993548" />
+                            <point x="0.134615" y="0.993548" />
+                            <point x="0.00320513" y="0.496774" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="J5" sid="923117543720397">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="J5_X" sid="589938826077386" type="number" />
+                <instance-variable name="J5_Y" sid="475346271437323" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="431986161058599">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="553289935088620" speed="5">
+                    <frame duration="1" hotspotX="0.490385" hotspotY="0.503226" original-source="C:\Users\User\Downloads\4-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.134615" y="0.00645161" />
+                            <point x="0.846154" y="0.00645161" />
+                            <point x="0.996795" y="0.496774" />
+                            <point x="0.846154" y="0.993548" />
+                            <point x="0.134615" y="0.993548" />
+                            <point x="0.00320513" y="0.496774" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="J4" sid="482872982637921">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="J4_X" sid="213990744849237" type="number" />
+                <instance-variable name="J4_Y" sid="344530852012477" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="456555116285925">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="381737207545222" speed="5">
+                    <frame duration="1" hotspotX="0.490385" hotspotY="0.503226" original-source="C:\Users\User\Downloads\3-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.134615" y="0.00645161" />
+                            <point x="0.846154" y="0.00645161" />
+                            <point x="0.996795" y="0.496774" />
+                            <point x="0.846154" y="0.993548" />
+                            <point x="0.134615" y="0.993548" />
+                            <point x="0.00320513" y="0.496774" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="J2" sid="230559586365298">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="J2_X" sid="220564742647157" type="number" />
+                <instance-variable name="J2_Y" sid="300859192968872" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="194436842953539">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="359674694958602" speed="5">
+                    <frame duration="1" hotspotX="0.490385" hotspotY="0.503226" original-source="C:\Users\User\Downloads\5-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.134615" y="0.00645161" />
+                            <point x="0.846154" y="0.00645161" />
+                            <point x="0.996795" y="0.496774" />
+                            <point x="0.846154" y="0.993548" />
+                            <point x="0.134615" y="0.993548" />
+                            <point x="0.00320513" y="0.496774" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="SkorKamu" sid="429873806599911">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="FileChooser" sid="717541720550090">
+            <plugin id="filechooser" />
+        </object-type>
+        <object-type name="Sprite20" sid="794867302925248">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="671575682632517" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.60339" original-source="C:\Users\User\Downloads\Untitled_design-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.153386" y="0.0135593" />
+                            <point x="0.846614" y="0.0135593" />
+                            <point x="0.994024" y="0.60339" />
+                            <point x="0.729084" y="0.99322" />
+                            <point x="0.270916" y="0.99322" />
+                            <point x="0.0059761" y="0.60339" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite21" sid="879396341864160">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="160854306930384" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501661" original-source="C:\Users\User\Downloads\a__4_-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.00982597" y="0.017608" />
+                            <point x="0.5" y="0.00166113" />
+                            <point x="0.990174" y="0.017608" />
+                            <point x="0.990174" y="0.982392" />
+                            <point x="0.5" y="0.998339" />
+                            <point x="0.00982597" y="0.982392" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg1" sid="866651493176037">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="167345297803350" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501667" original-source="C:\Users\User\Downloads\a__4_-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0.00900901" y="0.016" />
+                            <point x="0.5" y="0" />
+                            <point x="0.990991" y="0.016" />
+                            <point x="0.990991" y="0.984" />
+                            <point x="0.5" y="1" />
+                            <point x="0.00900901" y="0.984" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite9" sid="380537331628066">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="331088633732353" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Particles" sid="369185395709545">
+            <plugin id="Particles" />
+            <texture />
+        </object-type>
+        <object-type name="EndGamePopUp" sid="334708036423403">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="800742386143426" speed="5">
+                    <frame duration="1" hotspotX="0.486145" hotspotY="0.496888" original-source="C:\Users\User\Downloads\a__6_-removebg.png">
+                        <collision-poly>
+                            <point x="0.00060241" y="0.096473" />
+                            <point x="0.486145" y="0.00103734" />
+                            <point x="0.998795" y="0.0497925" />
+                            <point x="0.998795" y="0.943983" />
+                            <point x="0.486145" y="0.998963" />
+                            <point x="0.00060241" y="0.897303" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="bg2" sid="575349694240911">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="880659723177962" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\OneDrive\03 Collage sem 3\praktikum mulmed\NewAset FInal\serene-nature-outdoor-background-scene-with-tree-bush\y7bf_rhny_231019.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="soal1" sid="391724276117952">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="s1j1" sid="459556551208488">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="s1j2" sid="873008803090604">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="s1j3" sid="516281762956133">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="s1j4" sid="622003042000769">
+            <plugin id="Text" />
+        </object-type>
+        <object-type global="1" name="URUTANSOAL" sid="816840381499453">
+            <plugin id="Arr" />
+            <instance-variables>
+                <instance-variable name="TotalSoal" sid="989967571896501" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="BACKGROUNDWAKTU" sid="604892513052007">
+            <plugin id="TiledBg" />
+            <texture />
+        </object-type>
+        <object-type name="Soalbar" sid="785569554063650">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="113220693418755" speed="5">
+                    <frame duration="1" hotspotX="0.873672" hotspotY="1.23988" original-source="C:\Users\User\Downloads\freepik__background__60892.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="0" y="1" />
+                            <point x="0.473321" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite13" sid="628237793505216">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="394115945265433" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500485" original-source="C:\Users\User\Downloads\freepik__background__61105.png">
+                        <collision-poly>
+                            <point x="0.044" y="0.085354" />
+                            <point x="0.9415" y="0.113482" />
+                            <point x="0.5095" y="0.499515" />
+                            <point x="0.835" y="0.679922" />
+                            <point x="0.5" y="0.892338" />
+                            <point x="0.1525" y="0.704171" />
+                            <point x="0.0645" y="0.499515" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Barjawaban1" sid="988096222713336">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="616882388625050" speed="5">
+                    <frame duration="1" hotspotX="0.501312" hotspotY="0.886525" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="J1teks" sid="644288905693826">
+            <plugin id="Text" />
+        </object-type>
+        <object-type global="1" name="Array" sid="151645898836981">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Touch" sid="375284487717737">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="SkorTertinggi" sid="782652375577392">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="J2teks" sid="690967564130072">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="J3teks" sid="767457010642985">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="J4teks" sid="130019391692876">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Mouse" sid="888692687266872">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Sprite16" sid="712341681606190">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="594733308668790" speed="5">
+                    <frame duration="1" hotspotX="0.501312" hotspotY="0.886525" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="J5teks" sid="337563743560706">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Scorebar" sid="456745483636701">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="338354933925812" speed="5">
+                    <frame duration="1" hotspotX="1.06015" hotspotY="0.956835" original-source="C:\Users\User\Downloads\freepik__background__60892.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TimerBar" sid="103699075621990">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="920806790114996" speed="5">
+                    <frame duration="1" hotspotX="0.655172" hotspotY="62.7586" original-source="C:\Users\User\Downloads\4Z_2101.w017.n001.354B.p15.354-removebg-preview.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.655787" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground3" sid="383854594508697">
+            <plugin id="TiledBg" />
+            <texture original-source="C:\Users\User\Downloads\4-removebg-preview.png" />
+        </object-type>
+        <object-type name="Function" sid="317933733991301">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="AJAX" sid="855483974327382">
+            <plugin id="AJAX" />
+        </object-type>
+        <object-type name="playbutton" sid="844429028761768">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="163933275137747" speed="5">
+                    <frame duration="1" hotspotX="0.729323" hotspotY="1.63704" original-source="C:\Users\User\Downloads\freepik__background__60892.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.729323" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BG3" sid="266980541628327">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="681802351781348" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50073" original-source="C:\Users\User\Downloads\Screenshot_2024-11-20_11-44-24.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="papan" sid="750346897540788">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="142293494816439" speed="5">
+                    <frame duration="1" hotspotX="0.92549" hotspotY="-0.0485269" original-source="C:\Users\User\Downloads\freepik__background__62236.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0" y="1" />
+                            <point x="0" y="0" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="barpen" sid="347175549839778">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="182505240551632" speed="5">
+                    <frame duration="1" hotspotX="0.415094" hotspotY="0.682156" original-source="C:\Users\User\Downloads\freepik__background__62236.png">
+                        <collision-poly>
+                            <point x="0" y="0" />
+                            <point x="0.415094" y="0.827138" />
+                            <point x="1" y="0" />
+                            <point x="1" y="1" />
+                            <point x="0.415094" y="1" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PenMenulis" sid="625363321808466">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="210980104693592" speed="5">
+                    <frame duration="1" hotspotX="4.76471" hotspotY="0.0588235" />
+                    <frame duration="1" hotspotX="4.76471" hotspotY="0.0588235" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="redDraw" sid="871214908660200">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="894778256832123" speed="0">
+                    <frame duration="1" hotspotX="0.573333" hotspotY="0.746667">
+                        <collision-poly>
+                            <point x="0.133333" y="0.126667" />
+                            <point x="0.873333" y="0.126667" />
+                            <point x="0.873333" y="0.88" />
+                            <point x="0.133333" y="0.88" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.573333" hotspotY="0.746667">
+                        <collision-poly>
+                            <point x="0.133333" y="0.126667" />
+                            <point x="0.873333" y="0.126667" />
+                            <point x="0.873333" y="0.88" />
+                            <point x="0.133333" y="0.88" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Text" sid="528627293219044">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="brushRed" sid="852924550842538">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="331105941148322" speed="5">
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.509804" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="brushBlue" sid="314604623061502">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="422332881993858" speed="5">
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.509804" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="brushGreen" sid="491160607676961">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="416346555899154" speed="5">
+                    <frame duration="1" hotspotX="0.509804" hotspotY="0.509804" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="greenDraw" sid="265824200176659">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="589549814063145" speed="0">
+                    <frame duration="1" hotspotX="0.573333" hotspotY="0.746667">
+                        <collision-poly>
+                            <point x="0.133333" y="0.126667" />
+                            <point x="0.873333" y="0.126667" />
+                            <point x="0.873333" y="0.88" />
+                            <point x="0.133333" y="0.88" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.573333" hotspotY="0.746667">
+                        <collision-poly>
+                            <point x="0.133333" y="0.126667" />
+                            <point x="0.873333" y="0.126667" />
+                            <point x="0.873333" y="0.88" />
+                            <point x="0.133333" y="0.88" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="blueDraw" sid="625498356682660">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="972645431572949" speed="0">
+                    <frame duration="1" hotspotX="0.573333" hotspotY="0.746667">
+                        <collision-poly>
+                            <point x="0.133333" y="0.126667" />
+                            <point x="0.873333" y="0.126667" />
+                            <point x="0.873333" y="0.88" />
+                            <point x="0.133333" y="0.88" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.573333" hotspotY="0.746667">
+                        <collision-poly>
+                            <point x="0.133333" y="0.126667" />
+                            <point x="0.873333" y="0.126667" />
+                            <point x="0.873333" y="0.88" />
+                            <point x="0.133333" y="0.88" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="cursorObject" sid="563988102577824">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="546162366809944" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="hurufBA" sid="534291525862216">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="289552917503957" speed="5">
+                    <frame duration="1" hotspotX="0.457711" hotspotY="0.475758" original-source="C:\Users\User\Downloads\vectordesign.png">
+                        <collision-poly>
+                            <point x="0.0995025" y="0.0393939" />
+                            <point x="0.835821" y="0.0151515" />
+                            <point x="0.995025" y="0.475758" />
+                            <point x="0.880597" y="0.990909" />
+                            <point x="0.457711" y="0.909091" />
+                            <point x="0.0323383" y="0.993939" />
+                            <point x="0.00248756" y="0.475758" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WhatsAppImage20241128At114124_454aa56d" sid="684910789039231">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="748256881991190" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Downloads\WhatsApp Image 2024-11-28 at 11.41.24_454aa56d.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="WhatsAppImage20241128At114124_454aa56d2" sid="665289017494713">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="684666289167627" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\Downloads\WhatsApp Image 2024-11-28 at 11.41.24_454aa56d.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite10" sid="612944089546996">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="133884729913777" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\User\OneDrive\03 Collage sem 3\praktikum mulmed\1732770085141.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HURUFTEST" sid="697637724074677">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="566270600613736" speed="5">
+                    <frame duration="1" hotspotX="0.528455" hotspotY="0.570108" original-source="C:\Users\User\OneDrive\03 Collage sem 3\praktikum mulmed\1732772204852.png">
+                        <collision-poly>
+                            <point x="0.00116144" y="0.00154083" />
+                            <point x="0.998839" y="0.00154083" />
+                            <point x="0.998839" y="0.998459" />
+                            <point x="0.00116144" y="0.998459" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.528455" hotspotY="0.570108">
+                        <collision-poly>
+                            <point x="0.00116144" y="0.00154083" />
+                            <point x="0.998839" y="0.00154083" />
+                            <point x="0.998839" y="0.998459" />
+                            <point x="0.00116144" y="0.998459" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="checkPoin1" sid="472233854449956">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="928278975045721" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>FE1.xml</layout>
+        <layout>FE2.xml</layout>
+        <layout>End_Game.xml</layout>
+        <layout>Main Menu.xml</layout>
+        <layout>Pop Up Mulai FE2.xml</layout>
+        <layout>FE3 Mode Menulis.xml</layout>
+        <layout>FE3 Mode Gambar.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>ES1.xml</event-sheet>
+        <event-sheet>ES2.xml</event-sheet>
+        <event-sheet>ESEG.xml</event-sheet>
+        <event-sheet>EVMM.xml</event-sheet>
+        <event-sheet>EVPUMFE2.xml</event-sheet>
+        <event-sheet>ES3 Menulis.xml</event-sheet>
+        <event-sheet>ES3 Menggambar.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="30">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Mouse" uid="35" />
+        <global-instance type="Function" uid="15" />
+        <global-instance type="AJAX" uid="18" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file name="quizSoalJawabanUp.txt" />
+    </files-folder>
+</c2project>
